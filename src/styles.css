@@ -1,0 +1,24 @@
+:root {
+  --color-white: #FFF;
+  --color-red: #d56c72;
+  --color-grey: #e8e8e8;
+  --color-black: #22252e;
+  --color-charcoal: #292d36;
+  --color-dark-charcoal: #272b34;
+  --color-turquoise: #45dec5;
+  --border-radius-default: 6px;
+  --border-radius-medium: 8px;
+  --border-radius-large: 12px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto', Verdana, sans-serif;
+  background: var(--color-grey);
+}
